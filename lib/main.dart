@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:sujal/Pages/callui.dart';
 import 'package:sujal/Pages/myhomepage.dart';
 import 'package:sujal/Pages/page.dart';
 import 'package:sujal/Pages/sudo.dart';
@@ -26,6 +27,7 @@ class _MyAppState extends State<MyApp> {
         'ytictec':(context) => ytictec(),
         'page' :(context) => page(),
         'ypage':(context) => ypage(),
+        'callui' :(context) => callui(),
       },
       home: MyHomePage(),debugShowCheckedModeBanner: false,
     );
